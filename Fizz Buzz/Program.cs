@@ -23,7 +23,7 @@ do
         Console.WriteLine("fizz");
     else
         Console.WriteLine(num);
-    Console.WriteLine("Int key - 1 - to continue, 0 - to exit");
+    Console.WriteLine("Input key - 1 - to continue, 0 - to exit");
     k = int.Parse(Console.ReadLine());
 } while (k == 1);
 return;
